@@ -1,0 +1,48 @@
+    body{ 
+        background:black;
+    }
+    #motionData{
+        width:30em;
+        height:30em;
+        background:black;
+        border:4px solid black;
+        float:right;
+        overflow:hidden;
+        padding:1%;
+        font-family: 'sans';
+        font-size:18px;
+        font-weight: 100;
+        color:white;
+        text-align: left;
+    }
+    #red{
+        margin-top: 30px;
+        }
+    .white{
+        background:white;
+        width:150px;
+        height: 150px;
+        border:5px solid black;
+        border-radius: 98px;
+        margin-left: 500px;
+    }
+        #orange{
+            margin-top: 65px;
+
+        }
+            #green{
+            margin-top: 60px;
+
+        }
+.red{
+    background: red;
+}
+
+.orange{
+    background: orange;
+}
+
+.green{
+    background: green;
+}
+

@@ -1,45 +1,30 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Fun with colors</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <script src="/jquery.min.js"></script>
-    <script src="/socket.io/socket.io.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Motion Sensing</title>
+    <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
 </head>
 
 <body>
-
-    <div id="motionData"></div>
-    <div class="white" id="red"></div>
-    <div class="white" id="orange"></div>
-    <div class="white" id="green"></div>
-
-    <script>
-        var socket = io();
-        $(document).ready(function() {
-            socket.on('motion', function(data) {
-                $("#motionData").html("<h2>" + data.distance + "</h2>");
-            })
-
-            socket.on('color-red', function() {
-                $('#red').addClass('red');
-                $('#orange').removeClass('orange');
-                $('#green').removeClass('green');
-            })
-            socket.on('color-orange', function() {
-                $('#orange').addClass('orange');
-                $('#red').removeClass('red');
-                $('#green').removeClass('green');
-            })
-            socket.on('color-green', function() {
-                $('#green').addClass('green');
-                $('#red').removeClass('red');
-                $('#orange').removeClass('orange');
-            })
-
-        });
-    </script>
-
+    <div class="trafficlight">
+        <div class="motionData"></div>
+        <div class="protector"></div>
+        <div class="protector"></div>
+        <div class="protector"></div>
+        <div class="red" id="red"></div>
+        <div class="yellow" id="orange"></div>
+        <div class="green" id="green"></div>
+    </div>
+    <div class="pole"></div>
+    
+    <script src="/js/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/master.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "robotics",
+  "version": "1.0.0",
+  "description": "Robotic program using nodejs modules like johnny five and socket io to simulate a traffic light",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denvereezy/Robotics.git"
+  },
+  "dependencies":{
+    "socket.io": "^1.4.8",
+    "express": "^4.13.4",
+    "johnny-five": "^0.9.61"
+  },
+  "author": "Denver Daniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denvereezy/Robotics/issues"
+  },
+  "homepage": "https://github.com/denvereezy/Robotics#readme"
+}

@@ -25,6 +25,40 @@ html {
     background: green;
 }
 
+#logo{
+  background: black;
+  width: 400px;
+  height: 300px;
+  border: 5px solid black;
+  margin-left: 170%;
+  margin-top: -100%;
+  margin-left: 150%;
+
+
+}
+
+.logo{
+  background: black;
+  color: white;
+  display: none;
+  visibility: hidden;
+}
+
+.hiddenx{
+  display: none;
+  visibility: hidden;
+}
+
+.x{
+  margin-left: -50%;
+  margin-top: 20%;
+  height: 60%;
+}
+
+#image{
+  margin-top: 13%;
+}
+
 .redMotion {
     color: red;
 }

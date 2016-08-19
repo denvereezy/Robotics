@@ -10,7 +10,7 @@ Program created in node.js using modules like [johnny-five](http://johnny-five.i
 * Run `nodemon app.js` or `node app.js`. You should see a message `App running on http://localhost:2016`
 * In the brower type in `localhost:2016`.
 * You should see this screen:
- <img src="./public/img/screen.png" height="300px">
+* <img src="./public/img/screen.png" height="300px">
 
  # Setting up hardware
   <img src="./public/img/setup.jpg" height="400px">
